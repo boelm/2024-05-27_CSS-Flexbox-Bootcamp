@@ -18,6 +18,9 @@
     max-height: 2em;
     padding: 1em;
     
-    
 }
 
+.menu > .option:hover{
+    background-color: darkgray;
+    color: lightgray;
+}
