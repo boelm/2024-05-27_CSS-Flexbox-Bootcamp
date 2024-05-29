@@ -12,6 +12,7 @@
 .flex-container-box:last-child {
     /* border: 2px solid black; */
     flex-direction: row-reverse;
+    align-items: flex-end;
     
 }
 .flex-container-box > section{
