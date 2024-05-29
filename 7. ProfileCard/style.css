@@ -1,37 +1,50 @@
 
 body{
     background-color: lightgray;
-
+    margin: 10%;
     display: flex;
     justify-content: center;
-    align-items: center;
+   
 }
 
 .card{
     background-color: white;
-    width: 50%;
-    height: 50%;
+    width: 40%;
+    height: 80%;
     padding: 2em;
 
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items:center;
+    justify-items:center;
 }
 .card header{
-    /* height: 2em; */
-    padding-bottom: 1em;
+    padding-bottom: 2em;
     color:grey;
     font-family:sans-serif;
 
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
+    align-self:flex-end;
 }
-
-img{
+.profile{
+    padding-bottom: 3em;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    
+}
+.profile img{
     width: 5em;
     height: 5em;
     border-radius: 999em;
+}
+.profile h1{
+    font-size: 1.3rem;
+    color: black;
+    margin: .75rem 0 .5rem 0;
+}
+.profile p{
+    font-size: 0.9rem;
+    
 }
 
 .contact{
