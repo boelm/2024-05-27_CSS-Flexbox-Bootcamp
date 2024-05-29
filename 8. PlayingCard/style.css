@@ -18,7 +18,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    align-content: space-between;
+    justify-content: space-between;
 
 }
 
@@ -27,23 +27,16 @@ body {
 
     display: flex;
     flex-direction: column;
-    /* justify-content: space-between; */
 }
 
 .card main {
-    /* height:90%; */
-    /* rotate:45deg; */
-    /* background-color: red; */
     font-size: 4em;
-    padding: 10vw;
-
-
 }
 
 .card footer {
     align-self: flex-end;
-
     rotate: 180deg;
+    
     display: flex;
     flex-direction: column;
     justify-content: space-between;
