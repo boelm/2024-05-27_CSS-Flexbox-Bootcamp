@@ -1,0 +1,59 @@
+body {
+    background-color: lightgray;
+    display: flex;
+    align-content: space-around;
+    justify-content: center;
+
+}
+
+.card {
+    background-color: whitesmoke;
+    color: red;
+    width: 30vh;
+    height: 60vh;
+    padding: 1em;
+    border-radius: 3em;
+    border: 1em solid rgb(201, 201, 174);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: space-between;
+
+}
+
+.card header {
+    align-self: flex-start;
+
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+}
+
+.card main {
+    /* height:90%; */
+    /* rotate:45deg; */
+    /* background-color: red; */
+    font-size: 4em;
+    padding: 10vw;
+
+
+}
+
+.card footer {
+    align-self: flex-end;
+
+    rotate: 180deg;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.heart {
+    margin-bottom: 0em;
+}
+
+.number {
+    margin-top: 0em;
+    color: black;
+}
